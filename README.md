@@ -4,6 +4,13 @@
     <strong>LLM API Traffic Inspector & Token Usage Dashboard</strong>
   </p>
   <p align="center">
+    <img src="https://img.shields.io/badge/python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey.svg" alt="Platform">
+    <img src="https://img.shields.io/badge/proxy-mitmproxy-orange.svg" alt="mitmproxy">
+    <img src="https://img.shields.io/badge/LLM-Anthropic%20Claude-blueviolet.svg" alt="Anthropic">
+  </p>
+  <p align="center">
     <a href="#installation">Installation</a> •
     <a href="#quick-start">Quick Start</a> •
     <a href="#features">Features</a> •
