@@ -34,7 +34,7 @@ Sherlock is a transparent proxy that intercepts HTTPS traffic to LLM APIs and di
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sherlock.git
+git clone https://github.com/jmuncor/sherlock
 cd sherlock
 
 # Install in development mode
