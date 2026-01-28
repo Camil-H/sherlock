@@ -232,8 +232,3 @@ To add support for a new LLM provider:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-<p align="center">
-  Made with ☕ by developers who wanted to stop guessing their token usage
-</p>
