@@ -1,27 +1,3 @@
-<p align="center">
-  <h1 align="center">Sherlock</h1>
-  <p align="center">
-    <strong>Token Tracker for LLM CLI Tools</strong>
-  </p>
-  <p align="center">
-    <img src="https://img.shields.io/badge/python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-    <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey.svg" alt="Platform">
-    <img src="https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg" alt="Claude Code">
-    <img src="https://img.shields.io/badge/Gemini_CLI-supported-blue.svg" alt="Gemini">
-    <img src="https://img.shields.io/badge/Codex-supported-green.svg" alt="Codex">
-  </p>
-  <p align="center">
-    <a href="#installation">Installation</a> •
-    <a href="#quick-start">Quick Start</a> •
-    <a href="#features">Features</a> •
-    <a href="#commands">Commands</a> •
-    <a href="#contributing">Contributing</a>
-  </p>
-</p>
-
----
-
 Sherlock tracks token usage for LLM CLI tools with a live terminal dashboard. See exactly how many tokens you're using in real-time.
 
 ## Why Sherlock?
@@ -30,18 +6,6 @@ Sherlock tracks token usage for LLM CLI tools with a live terminal dashboard. Se
 - **Monitor Context Windows**: Visual fuel gauge shows cumulative usage against your limit
 - **Debug Prompts**: Automatically saves every prompt as markdown and JSON for review
 - **Zero Configuration**: No certificates, no setup - just install and go
-
-## Installation
-
-```bash
-git clone https://github.com/jmuncor/sherlock.git
-cd sherlock
-pip install -e .
-```
-
-### Requirements
-
-- Python 3.10+
 
 ## Quick Start
 
@@ -175,33 +139,3 @@ Options:
 ### Gemini CLI
 
 Gemini CLI currently has a [known issue](https://github.com/google-gemini/gemini-cli/issues/15430) where it ignores custom base URLs when using OAuth authentication. Sherlock's Gemini support will work automatically once the Gemini CLI team fixes this issue.
-
-## Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### Development Setup
-
-```bash
-git clone https://github.com/jmuncor/sherlock.git
-cd sherlock
-python -m venv venv
-source venv/bin/activate
-pip install -e .
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">
-  <em>See what's really being sent to the LLM. Track. Learn. Optimize.</em>
-</p>
